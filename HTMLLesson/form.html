@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <form action="register.php" method="GET">
+        <div>
+            <label for="Name">Student Name</label><br>
+            <input type="text" id="Name" name="Student Name" placeholder="Eg.Mg Mg" value="Test" minlength="10" maxlength="20">
+        </div>
+         <br>
+
+        <div>
+            <label for="age">Student Age</label><br>
+            <input type="number" id="age" name="Student Age" Max="50" min="20" step="5" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Student Phone</label><br>
+            <input type="number" id="phone" name="Student Phone" Min="9" Max="11" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Student Email</label><br>
+            <input type="text" id="email" name="Student Email" placeholder="example@" required>
+        </div>
+        <br>
+        <div>
+            <label for="dob">DOB</label>
+            <br>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <br>
+        <label for="">Gender</label>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" >
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+        </div>
+        <br>
+        <label for="">Hobbies</label>
+        <div>
+             <label for="reading">Reading</label>
+             <input type="checkbox" id="reading" name="hobbies">
+        </div>
+        <div>
+             <label for="dancing">Dancing</label>
+             <input type="checkbox" id="dancing" name="hobbies">
+        </div><div>
+             <label for="travelling">Travelling</label>
+             <input type="checkbox" id="travelling" name="hobbies">
+        </div><div>
+             <label for="swimming">Swimming</label>
+             <input type="checkbox" id="swimming" name="hobbies">
+        </div>
+        <br>
+        <label for="education">Education</label>
+        <br>
+        <select name="education" id="education">
+            <option value="0">Chose Education</option>
+            <option value="1">One</option>
+            <option value="2" selected>Two</option>
+            <option value="3">Three</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Rules</legend>
+            <ol>
+                <li>This is rule no.1</li>
+                <li>This is rule no.1</li>
+            </ol>
+        </fieldset>
+        <br>
+        <div>
+            <label for="address">Address</label>
+            <br>
+            <textarea name="address" id="address"></textarea>
+        </div>
+        <br>
+        <marquee behavior="" direction="right">ကျေးဇူးတင်ပါတယ်</marquee>
+         
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
