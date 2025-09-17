@@ -1,0 +1,64 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+/* id selector symobl= # */
+
+#one{
+    color: green;
+    line-height: 25px;
+    word-spacing: 25px;
+    text-transform: capitalize;
+
+}
+
+/* class selector symbol= . */ 
+.classselector{
+    text-indent: 96px;
+}
+
+/* Child  */
+
+#child > a{
+    color: pink;
+}
+
+/* descendet */
+#desc a{
+    color: darkorchid;
+}
+
+/* pseudo */
+
+a:link{
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+    font-size: 40px;
+}
+
+a:visited{
+    color: black;
+}
+
+/* Target */
+
+p:target{
+      color: aquamarine;
+      text-transform: uppercase;
+      line-height: 20px;
+}
+
+div:target{
+    color: blueviolet;
+    text-transform: lowercase;
+    line-height: 30px;
+}

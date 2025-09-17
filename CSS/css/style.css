@@ -1,0 +1,31 @@
+h1,p{
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+/* Universal Selector symbol=* */
+/* margin=0 */     html ရဲ. Space ဖျတ်
+/* padding=0 */
+*{
+    letter-spacing: 10px;
+    color: gray;
+}
+
+/* tag element selector */
+p{
+    font-size: small;
+    color: black;
+}
+
+/* attribute selector */
+input[type="txt"]{
+    color: blue;
+    letter-spacing: 0px;
+}
+
+a[title="google"]{
+    color: brown;
+    letter-spacing: 0px;
+}
