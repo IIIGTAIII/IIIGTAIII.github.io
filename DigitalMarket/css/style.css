@@ -3,6 +3,7 @@
     padding: 0px;
     background-color: black;
     
+    
 }
 
 /* Start Nav  */
@@ -51,3 +52,113 @@
     
 }
 /* End Nav  */
+
+/* Start Bunner  */
+.bunner_image{
+    width: 100%;
+}
+
+.bunner{
+    position: relative;
+}
+
+.bunner_text{
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 80%;
+    font-size: 10px;
+    
+    
+}
+
+.bunner_text h1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.bunner_text p{
+    font-size: 20px;
+
+}
+
+.bunner_text a{
+    border: 1px solid blue;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: inline-block;
+   margin-top: 2px;
+   margin-left: 80px;
+
+}
+
+.bunner_text a:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: blue;
+}
+/* End Bunner  */
+
+/* Start Popular Item  */
+.popular{
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.popular_cart{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    grid-gap: 30px;
+
+}
+
+.popular_cart img{
+    width: 70%;
+}
+
+.popular_item{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 50px;
+ }
+
+ .popular_item h1{
+    color: white;
+    font-size: 20px;
+    padding: 1px 15px;
+ }
+
+ .popular_item p{
+    padding: 5px 15px;
+    color: white;
+ }
+ 
+ .popular_item button{
+    padding: 10px;
+    float: right;
+    background-color: #234981;
+    color: #FFFFFF;
+    border: 1px solid #234981;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.popular_item img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+}    
+
+.popular_hover{
+overflow: hidden;
+}
+
+/* End Popular Item  */
