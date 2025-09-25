@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     background-color: black;
-    
+
     
 }
 
@@ -162,3 +162,28 @@ overflow: hidden;
 }
 
 /* End Popular Item  */
+
+/* Start About */
+
+.float_left img{
+    width: 40%;
+    border: 2px solid white;
+    float: left;
+    margin-right: 10px;
+    
+}
+.float_left p{
+    color: white;
+    
+}
+
+.about_us{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
