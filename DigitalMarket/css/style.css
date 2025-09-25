@@ -130,6 +130,7 @@
     border-radius: 5px;
     padding-left: 50px;
  }
+ 
 
  .popular_item h1{
     color: white;
@@ -150,6 +151,12 @@
     border: 1px solid #234981;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+.popular_item button:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: blue;
 }
 
 .popular_item img:hover{
@@ -187,3 +194,5 @@ overflow: hidden;
     text-align: center;
     margin-top: 40px;
 }
+
+/* End About  */
