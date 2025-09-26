@@ -313,8 +313,80 @@ overflow: hidden;
     color: #234981;
 }
 
-.star_rating{
+/* .star_rating{
     color: yellow;    မေးရန်
-}
+} */
 
 /* End Customer Review  */
+
+
+/* Start Service  */
+
+.service{
+    padding: 50px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    background-color: #234981;
+}
+
+.service_icon{
+    float: left;
+    padding: 10px 10px;
+    /* color: #234981; */
+   
+}
+
+.service_text h1{
+    font-size: 25px;
+    color: #234981;
+}
+
+/* End Service  */
+
+/* Start Footer  */
+
+.footer{
+    
+    padding: 20px 40px;
+    
+}
+
+.footer_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;         /* responsive wrap */
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer_left h3{
+  margin: 0 0 5px 0;
+  /* color: #fff; */
+}
+
+.footer_left p{
+  margin: 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer_right a{
+  color: #4da6ff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.footer-right a:hover{
+  text-decoration: underline;
+}
+
+/* End Footer  */
+
+
+
+
+
