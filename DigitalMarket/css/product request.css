@@ -59,291 +59,113 @@
 }
 /* End Nav  */
 
-/* Start Bunner  */
-.bunner_image{
-    width: 100%;
+/* Start Product Request  */
+
+.request_main{
+    margin-top: 30px;
 }
 
-.bunner{
-    position: relative;
-}
-
-.bunner_text{
-    position: absolute;
-    color: white;
-    top: 80%;
-    left: 80%;
-    font-size: 10px;
+.request_middle{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 300px;
     
     
+       
 }
-
-.bunner_text h1{
+.request_middle h1{
     font-size: 30px;
-    text-align: center;
-    
 }
 
-.bunner_text p{
-    font-size: 20px;
-
-}
-
-.bunner_text a{
-    border: 1px solid blue;
-    background-color: blue;
+label[for="email"]:hover{
     font-size: 20px;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 10px 10px;
-    display: inline-block;
-   margin-top: 2px;
-   margin-left: 80px;
-
-}
-
-.bunner_text a:hover{
-    border: 1px solid white;
-    background-color: white;
-    color: blue;
-}
-/* End Bunner  */
-
-/* Start Popular Item  */
-.popular{
-    color: white;
-    width: 80%;
-    margin: auto;
-    margin-top: 80px;
-    text-align: center;
-}
-
-.popular_cart{
-    display: grid;
-    grid-template-columns: 440px 440px 440px;
-    margin-top: 20px;
-    grid-gap: 30px;
-
-}
-
-.popular_cart img{
-    width: 50%;
-    padding-left: 100px;                              
-    
-    
-}
-
-.popular_item{
-    border: 1px solid #234981;
-    border-radius: 5px;
-    /* padding-left: 50px; */
- }
- 
-
- .popular_item h1{
-    color: white;
-    font-size: 20px;
-    padding: 1px 15px;
- }
-
- .popular_item p{
-    padding: 10px 15px;
-    color: white;
-
- }
- 
- .popular_item button{
-    padding: 15px ;
-    float: right;
-    background-color: blue;
-    color: #FFFFFF;
-    border: 1px solid #234981;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.popular_item button:hover{
-    border: 1px solid white;
-    background-color: white;
-    color: blue;
-}
-
-.popular_item img:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
     transition-duration: .8s;
-}    
-
-.popular_hover{
-overflow: hidden;
-}
-
-/* End Popular Item  */
-
-/* Start About */
-
-/* .float_left img{
-    width: 40%;
-    border: 2px solid white;
-    float: left;
-    margin-right: 10px;
-    
-}
-.float_left p{
-    color: white;
     
 }
 
-.about_us{
-    color: white;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.about h1{
-    color: white;
-    text-align: center;
-    margin-top: 40px;
-} */
 
-/* End About  */
 
-/* Start Poduct item  */
-
-.product{
-    margin-top: 80px;
-   
-    
-}
-
-.product_cart{
-    display: grid;
-    grid-template-columns: 440px 440px 440px;
-    margin-top: 20px;
-    grid-gap: 30px;
-    
+input[type="text"]{
+    width: 250px;
+    height: 25px;
+    padding: 0px 10px;
+    background-color: #234981;
 
 }
 
-.product_cart img{
-    width: 50%;
-    padding-left: 100px;
-                           
-      
-}
-
-.product_item{
-    border: 1px solid #234981;
-    border-radius: 5px;
-    /* padding-left: 50px; */
- }
-
- .product_item h1{
-    color: white;
+label[for="phone"]:hover{
     font-size: 20px;
-    padding: 1px 10px;
- }
-
- .product_item p{
-    padding: 10px 15px;
     color: white;
-
- }
- 
- .product_item button{
-    padding: 15px ;
-    float: right;
-    background-color: blue;
-    color: #FFFFFF;
-    border: 1px solid #234981;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.product_item button:hover{
-    border: 1px solid white;
-    background-color: white;
-    color: blue;
-}
-
-.product_item img:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
     transition-duration: .8s;
-}    
-
-.product_hover{
-overflow: hidden;
 }
 
-/* End Product Item  */
-
-/* Start Customer Review  */
-
-.review{
-    margin-top: 80px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.customer_review{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.customer_review img{
-    width: 20%;
-    float: left;
-    border-radius: 50%;
-    padding: 10px;
-    padding-right: 50px;
-}
-
-.customer_review div{
-    /* background-color: white; */
-    border: 1px solid #234981 ;
-    padding: 40px;
-    border-radius: 20px;
-   
-}
-
-.customer_review h1{
-    font-size: 25px;
-    color: #234981;
-}
-
-/* .star_rating{
-    color: yellow;    မေးရန်
-} */
-
-/* End Customer Review  */
 
 
-/* Start Service  */
-
-.service{
-    padding: 50px;
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
+input[type="number"]{
+    width: 250px;
+    height: 25px;
+    padding: 0px 10px;
     background-color: #234981;
 }
 
-.service_icon{
-    float: left;
+input[placeholder="example@gmail.com"]{
+    font-style: italic;
+    font-size: 20px;
+}
+
+input[placeholder="09"]{
+     font-style: italic;
+    font-size: 20px;
+}
+
+.request_middle h2{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.checkbox_position{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.software{
+    padding-right: 50px;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+textarea[placeholder="What Do U Need?"]{
+    font-size: 20px;
+}
+
+.checkbox_position button{
+    border: 1px solid black;
+    background-color: blue;
+    font-size: 20px;
     padding: 10px 10px;
-    /* color: #234981; */
-   
+    border-radius: 50px;
+    margin: 10px 80px;
 }
 
-.service_text h1{
-    font-size: 25px;
-    color: #234981;
+.checkbox_position button:hover{
+    background-color: white;
+    color: blue !important;
+    border: 1px solid blue;
 }
 
-/* End Service  */
+/* End Product Request  */
+    
+
 
 /* Start Footer  */
 

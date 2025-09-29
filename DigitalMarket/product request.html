@@ -28,8 +28,41 @@
         </ul>
      </nav>
      <!-- End Nav  -->
-
-    
+     <!-- Start Product Request  -->
+    <section id="request">
+        <div class="request_main">
+              <div class="request_middle">
+                   <h1>Product Request</h1>
+                   <br>
+                   <hr>
+                   <br>
+                    <form action="productrequest.php" method="get">
+                          <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+                            <label for="phone">Phone</label>
+                            <input type="number" id="phone" name="phone" placeholder="09" required>
+                          </div>
+                           <div class="checkbox_position">
+                            <h2>Which Product do u require?</h2>
+                            <label for="vpn">VPN</label>
+                            <input type="checkbox" id="vpn" name="vpn"><br>
+                              <div class="software">
+                                <label for="software">SOFTWARE</label>
+                                <input type="checkbox" id="software" name="software">
+                                <textarea name="request" placeholder="What Do U Need?"></textarea>
+                                <div><button>Submit Request</button></div>
+                              </div>
+                              
+                            
+                           </div>
+                           
+                    </form>
+              </div>
+              
+        </div>
+    </section>
+    <!-- End Product Request  -->
 
     <!-- Start footer  -->
 
