@@ -31,7 +31,7 @@ h1{
 
 /* pseudo */
 
-a:link{
+/* a:link{
     text-decoration: none;
     letter-spacing: 10px;
 }
@@ -47,7 +47,7 @@ a:active{
 
 a:visited{
     color: black;
-}
+} */
 
 /* Target */
 
@@ -61,4 +61,215 @@ div:target{
     color: blueviolet;
     text-transform: lowercase;
     line-height: 30px;
+}
+
+/* Border */
+.borderone{
+      border: 2px solid blue;
+}
+
+.bordertwo{
+    border-bottom: 2px solid black;
+}
+
+.borderthree{
+    /* border-style: dotted; */
+    /* all */
+    /* border-style: dotted solid; */
+    /* T&B/L&R */
+    border-style: solid dotted double;
+    /* T & L/R & B */
+    /* border-style: solid dotted double dotted; */
+    /* T / R / B / L */
+}
+
+.borderfour{
+    border-style: solid;
+    border-color: red yellow green blue;
+    border-width: 30px 50px 30px;
+}
+
+/* Margin */
+/* Margin & Padding ကို University Selector နဲ. None ပေးလိုက်တာ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.marginone{
+    margin: 50px 100px;
+    
+}
+
+.margintwo{
+    margin-right: 200px;
+}
+
+/* padding */
+
+.paddingone{
+    /* padding: 100px 200px; */
+    border: 2px solid blueviolet;
+    padding-top: 300px;
+}
+
+/* Layout */
+
+.inline{
+    border: 2px solid red;
+    width: 400px;
+    display: inline-block;
+}
+
+.block{
+    border: 2px solid gray;
+    width: 400px;
+    display: inline-block;
+}
+
+/* Float */
+/* border က image ကိုဘဲဘောင်ခတ် */
+
+.float_left img{
+    width: 30%;
+    border: 2px solid rgb(47, 170, 197);
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.float_right img{
+    width: 30%;
+    border: 2px solid red;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+/* grid */
+
+.gridone div,.gridtwo div,.gridthree div,.gridfour div,.gridfive div,.gridsix div{
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gridone,.gridtwo,.gridthree,.gridfour,.gridfive,.gridsix{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo{
+    grid-column-gap: 40px;
+}
+
+.gridthree{
+    grid-row-gap: 40px;
+}
+
+.gridfour{
+    grid-gap: 40px;
+    /* grid-column-gap: 40px; */
+    /* grid-row-gap: 60px; */
+}
+
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+}
+
+/* Position */
+/* Positon မှာ Properties Top Left Right */
+/* Postion Relative က HTML နဲ.အကွာအဝေးချိန် */
+.position_relative_parent{
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+}
+
+.position_relative{
+    border: 2px solid red;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+/* Postion Absolute က Document Title နဲ.အကွာအဝေးချိန် */
+/* Absoulte ကိုသုံးနေရင် Relative ကိုလည်းခေါ်သုံးလို.ရ */
+.position_absolute_parent{
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+.position_absolute{
+    border: 2px solid red;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+/* Position Fixed ကတော. Scroll bar ဆွဲရင်လည်းနေရာပြောင်းလဲမှမရှိ */
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+/* Online Font  */
+/* Copy Embed Code Online */
+
+/* Offline Font  */
+
+@font-face {
+    src: url(../css/Location);
+    font-family: "Enter Value Same Recall";
+}
+
+.offline_font{
+    font-family: "Enter Value Same";
+}
+
+/* media css  */
+/* phone size */
+@media (max-width:600px){
+    body{
+        background-color: blue;
+    }
+}
+
+/* Tablet Size  */
+@media (min-width: 601px) and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+}
+
+/* laptop size */
+@media (min-width: 901px) and (max-width: 1200px){
+    body{
+        background-color: yellow;
+    }
+}
+
+/* extra laptop size */
+@media (min-width: 1201px){
+    body{
+        background-color: green;
+    }
 }
