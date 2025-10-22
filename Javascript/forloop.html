@@ -11,7 +11,7 @@
         let num = prompt("Enter a number");
         
         for (let n = 1; n <= 12; n++) {
-            document.write(`<p> num  x ${n} = ${num*n} </p>`);
+            document.write(`<p> ${num}  x ${n} = ${num*n} </p>`);
             
         }
 
@@ -29,10 +29,44 @@
         for (let h = 5; h >= 0; h-- ) {
             
             for (let i = 0; i <= h; i++){
-              document.write('*');
+                document.write('*');
             }
-            document.write("<br>")
+                document.write("<br>")
         }
+
+        // While Loop 
+
+        let numm = prompt("Enter a number");
+        while( numm > 100) {
+            document.write(`<h1>Ur No. is ${numm}</h1>`);
+
+            numm -= 15;
+        }
+        // do while loop 
+
+        let no = 30;
+        do{
+            document.write(`<h1>U No. is ${no}</h1>`);
+            no++;
+        }while(no < 20)
+
+
+        Home Work
+
+        let secretNo = 7;
+        let guessNO = prompt("Enter A No. 1 to 9")
+         
+        while (guessNo != secretNo) {
+            if (guessNO < secretNo) {
+                alert('Ur No. is lower,Please Try again');
+            }else{
+                alert('Ur No. is Greather, Please Try Again');
+            }
+            guessNO = prompt("Enter a number between 0 to 9");
+            
+        }
+
+        document.write('Correct');
     </script>
 </body>
 </html>
