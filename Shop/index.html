@@ -116,7 +116,7 @@
                         </ul>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <input class="form-control me-2 search_bar" type="search" placeholder="Search" aria-label="Search" />
                     <button class="btn btn-outline-danger" type="submit">Search</button>
                 </form>
             </div>
@@ -134,11 +134,11 @@
             <div class="carousel-item active">
                 <img src="picture/Bunner.jpg" class="d-block w-100 carousel_img" alt="...">
                 <div class="carousel-caption text-start">
-                    <h5>Limit Time Offer</h5>
-                    <h2 class="fw-bold display-5">TazaungTaung Promotion</h2>
-                    <p>Enjoy amazing discounts this festive season!</p>
+                    <h5 class="text-dark">Limit Time Offer</h5>
+                    <h2 class="fw-bold display-5 text-dark">TazaungTaung Promotion</h2>
+                    <p class="text-dark">Enjoy amazing discounts this festive season!</p>
                     <div>
-                        <a href="" class="btn btn-danger btn-lg p-auto">Shop Women's</a>
+                        <a href="" class="btn btn-danger btn-lg p-auto text-dark">Shop Women's</a>
                         <a href="" class="btn btn-outline-light btn-lg p-auto">Shop Men's</a>
                     </div>
                 </div>
@@ -147,10 +147,10 @@
                 <img src="picture/Bunner Seller.svg" class="d-block w-100 carousel_img" alt="...">
                 <div class="carousel-caption text-start m-5 mx-1">
                     <h5>Digital Product Offer</h5>
-                    <h2 class="fw-bold display-5">Join Telegram Channel</h2>
+                    <h2 class="fw-bold display-5 text-primary">Join Telegram Channel</h2>
                     <p>All In One Cheap Digital Product</p>
                     <div>
-                        <a href="" class="btn btn-danger btn-lg p-auto">Telegram Channel's</a>
+                        <a href="" class="btn btn-outline-light btn-lg p-auto"><i class="fa-brands fa-telegram text-primary"></i>Telegram</a>
                     </div>
                 </div>
             </div>
@@ -242,9 +242,26 @@
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
             <div class="col mb-3">
-                <div class="card">
-                    <img src="" alt="">
+                <div class="card shadow position-relative">
+                    <span class="badge bg-danger position-absolute top-0 m-2">-20%</span>
+                    <button class="position-absolute top-0 end-0 rounded-circle m-2 border-0">
+                        <i class="fa-regular fa-heart text-danger"></i>
+                    </button>
+                    <img src="picture/Men 1.jpg" alt="" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Levi's Polo T-Shirt</h5>
+                        <p>
+                            <span class="text-secondary text-decoration-line-through fs-6">$50</span>
+                            <span class="fw-bold fs-5 text-danger">$40</span>
+                        </p>
+
+                        <div>
+                            <a href="" class="btn btn-outline-dark btn-sm rounded-pill px-3"><i class="fa-solid fa-circle-info me-1"></i>Detail</a>
+                            <a href="" class="btn btn-danger btn-sm rounded-pill px-3"><i class="fa-solid fa-cart-shopping me-1"></i>Add</a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
