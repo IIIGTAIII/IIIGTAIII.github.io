@@ -6,8 +6,11 @@
     font-family: "Oswald";
 }
 
+/* Start Nav */
+
 .logo_video{
     width: 150px;
+    
     
 }
 
@@ -17,4 +20,43 @@
 
 .active{
     color: red !important;
+}
+
+/* End Nav  */
+
+
+
+/* Start Carousel  */
+
+.carousel_img{
+    height: 65vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* End Carousel  */
+
+
+
+/* Start Service  */
+
+.service_icon{
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+/* End Service  */
+
+
+
+/* Start Promotion  */
+.title_underline{
+    width: 80px;
+    height: 4px;
 }
