@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(../font/Oswald/Oswald-VariableFont_wght.ttf);
+}
+*{
+    font-family: "Oswald";
+}
+
+.logo_video{
+    width: 150px;
+    
+}
+
+.nav_item:hover{
+    color: red;
+}
+
+.active{
+    color: red !important;
+}
